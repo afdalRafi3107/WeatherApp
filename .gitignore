@@ -1,0 +1,40 @@
+# ====== GENERAL ======
+node_modules
+.env
+.DS_Store
+*.log
+logs
+*.local
+
+# ====== BUILD OUTPUT ======
+dist
+dist-ssr
+build
+coverage
+
+# ====== EDITOR FILES ======
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ====== FRONTEND ======
+# (Vite/React specific)
+frontend/node_modules
+frontend/dist
+frontend/.env.local
+
+# ====== BACKEND ======
+# (Express/Node specific)
+backend/node_modules
+backend/dist
+backend/.env
+
+# ====== SYSTEM FILES ======
+Thumbs.db
+*.tmp
+*.bak
