@@ -1,4 +1,4 @@
-# ====== GENERAL ======
+
 node_modules
 .env
 .DS_Store
@@ -6,13 +6,12 @@ node_modules
 logs
 *.local
 
-# ====== BUILD OUTPUT ======
+
 dist
 dist-ssr
 build
 coverage
 
-# ====== EDITOR FILES ======
 .vscode/*
 !.vscode/extensions.json
 .idea
@@ -22,19 +21,16 @@ coverage
 *.sln
 *.sw?
 
-# ====== FRONTEND ======
-# (Vite/React specific)
+
 frontend/node_modules
 frontend/dist
 frontend/.env.local
 
-# ====== BACKEND ======
-# (Express/Node specific)
+
 backend/node_modules
 backend/dist
 backend/.env
 
-# ====== SYSTEM FILES ======
 Thumbs.db
 *.tmp
 *.bak
